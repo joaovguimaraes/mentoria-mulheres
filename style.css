@@ -8,6 +8,9 @@ header{
    position: absolute;
    background-color: purple;
 }
+div{
+   background-color: aliceblue;
+}
  @media screen and (max-width: 600px){
    
    .header-mobile{

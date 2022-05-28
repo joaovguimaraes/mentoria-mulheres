@@ -8,20 +8,6 @@ header{
    position: absolute;
    background-color: purple;
 }
-#header-mobile{
-   display: none;
-   height: 100%;
-   width: 100%;
-   background-color: blue;
-}
-
-#header{
-   display: block;
-   height: 15px;
-   width: 100%;
-   background-color: aqua;
-}
-
  @media screen and (max-width: 600px){
    
    .header-mobile{

@@ -1,0 +1,44 @@
+*{
+   margin: 0;
+}
+
+header{
+   width: 100%;
+   height: 15vh;
+   position: absolute;
+   background-color: purple;
+}
+#header-mobile{
+   display: none;
+   height: 100%;
+   width: 100%;
+   background-color: blue;
+}
+
+#header{
+   display: block;
+   height: 15px;
+   width: 100%;
+   background-color: aqua;
+}
+
+ @media screen and (max-width: 600px){
+   
+   .header-mobile{
+      display: flex;
+      flex: 1;
+      background-color: blue;
+   }
+
+   .header{
+      display: none;
+      background-color: aqua;
+   }
+
+} 
+
+#home{
+   width: 100%;
+   height: 100vh;
+   background-color: pink;
+}
